@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+int x;
+int y;
+int z;
+
+cout << "Masukkan Nilai A = ";
+cin >> x;
+cout << "Masukkan Nilai B = ";
+cin >> y;
+cout << "Masukkan Nilai C = ";
+cin >> z;
+
+cout << "\nHasil dari masukan adalah : " << endl << endl;
+cout << "A OR B = " << (x || y) << endl;
+cout << "A OR C = " << (x || x) << endl;
+cout << "f1 = (A OR B) AND (A OR C) =" << ((x || y) && (x || z)) << endl;
+
+return 0;
+}
